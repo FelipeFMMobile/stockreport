@@ -1,0 +1,90 @@
+{
+  "input_columns": [
+    "ticker",
+    "pl_calculado",
+    "ativo_total",
+    "passivo_total",
+    "ativo_circulante",
+    "receita_liquida",
+    "ebit",
+    "lucro_liquido",
+    "lucro_bruto",
+    "resultado_financeiro",
+    "margem_ebit_calculada",
+    "margem_liquida_calculada",
+    "margem_bruta_calculada",
+    "resultado_financeiro_pct",
+    "ativo_circulante_pct",
+    "passivo_total_pct",
+    "price_end_close",
+    "quarter_variation_close_pct",
+    "quarter_variation_adj_close_pct",
+    "p_vp_indicador",
+    "roe_indicador",
+    "roa_indicador",
+    "roic_indicador",
+    "margem_liquida_indicador",
+    "margem_ebit_indicador",
+    "margem_bruta_indicador",
+    "divida_liquida_indicador",
+    "liquidez_corrente_indicador"
+  ],
+  "categorical_features": [
+    "ticker"
+  ],
+  "numeric_features": [
+    "pl_calculado",
+    "ativo_total",
+    "passivo_total",
+    "ativo_circulante",
+    "receita_liquida",
+    "ebit",
+    "lucro_liquido",
+    "lucro_bruto",
+    "resultado_financeiro",
+    "margem_ebit_calculada",
+    "margem_liquida_calculada",
+    "margem_bruta_calculada",
+    "resultado_financeiro_pct",
+    "ativo_circulante_pct",
+    "passivo_total_pct",
+    "price_end_close",
+    "quarter_variation_close_pct",
+    "quarter_variation_adj_close_pct",
+    "p_vp_indicador",
+    "roe_indicador",
+    "roa_indicador",
+    "roic_indicador",
+    "margem_liquida_indicador",
+    "margem_ebit_indicador",
+    "margem_bruta_indicador",
+    "divida_liquida_indicador",
+    "liquidez_corrente_indicador"
+  ],
+  "blocked_features": [
+    "period",
+    "period_order",
+    "next_period"
+  ],
+  "target_column": "target_variation_class",
+  "target_return_column": "next_quarter_close_pct",
+  "target_class_column": "target_variation_class",
+  "class_order": [
+    "NH",
+    "N",
+    "S",
+    "P",
+    "PH"
+  ],
+  "class_rules": {
+    "NH": "next_quarter_close_pct <= -0.10",
+    "N": "-0.10 < next_quarter_close_pct < -0.03",
+    "S": "-0.03 <= next_quarter_close_pct <= 0.03",
+    "P": "0.03 < next_quarter_close_pct < 0.10",
+    "PH": "next_quarter_close_pct >= 0.10"
+  },
+  "feature_notes": {
+    "ticker": "Feature categorica usada pelo pipeline scikit-learn via OneHotEncoder ou pelo TensorFlow via embedding.",
+    "period": "Nao deve ser enviado ao modelo; usado apenas na analise e em testes visuais."
+  }
+}

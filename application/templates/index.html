@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>StockReport B3 Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="search-band">
+        <div class="search-copy">
+          <p class="eyebrow">StockReport Intelligence</p>
+          <h1>Informe sua ação na bolsa de valores brasileira.</h1>
+        </div>
+        <form id="ticker-form" class="ticker-form">
+          <label for="ticker-input">Ticker</label>
+          <div class="input-row">
+            <input id="ticker-input" name="ticker" type="text" maxlength="7" placeholder="PETR4" autocomplete="off">
+            <button type="submit">Consultar</button>
+          </div>
+        </form>
+      </section>
+
+      <section id="status-panel" class="status-panel hidden" role="status"></section>
+
+      <section id="quote-panel" class="quote-panel hidden">
+        <div class="quote-main">
+          <div>
+            <p class="section-label">Cotação</p>
+            <h2 id="quote-name">-</h2>
+            <p id="quote-symbol" class="muted">-</p>
+          </div>
+          <div class="quote-price">
+            <span id="quote-price">-</span>
+            <small id="quote-currency">BRL</small>
+          </div>
+        </div>
+        <div class="metric-grid">
+          <div>
+            <span>Variação</span>
+            <strong id="quote-change">-</strong>
+          </div>
+          <div>
+            <span>Fechamento anterior</span>
+            <strong id="quote-previous">-</strong>
+          </div>
+          <div>
+            <span>Atualizado em</span>
+            <strong id="quote-updated">-</strong>
+          </div>
+        </div>
+        <button id="analysis-button" class="analysis-button hidden" type="button">Análise de alvo</button>
+      </section>
+
+      <section id="analysis-panel" class="analysis-panel hidden">
+        <div class="analysis-head">
+          <div>
+            <p class="section-label">Modelo preditivo</p>
+            <h2 id="analysis-title">Análise de alvo</h2>
+            <p id="analysis-subtitle" class="muted">-</p>
+          </div>
+          <div class="target-card">
+            <span>Preço-alvo 12 meses</span>
+            <strong id="target-price">-</strong>
+            <small id="target-return">-</small>
+          </div>
+        </div>
+
+        <div class="heat-wrap">
+          <div id="heat-scale" class="heat-scale"></div>
+          <div id="class-legend" class="class-legend"></div>
+        </div>
+
+        <div class="dashboard-grid">
+          <div class="panel">
+            <h3>Probabilidades</h3>
+            <div id="probability-list" class="probability-list"></div>
+          </div>
+          <div class="panel">
+            <h3>Comparativo de preços</h3>
+            <canvas id="price-chart" width="680" height="300"></canvas>
+          </div>
+        </div>
+
+        <div class="panel broker-panel">
+          <div class="panel-head">
+            <h3>Corretoras e consenso</h3>
+            <span id="broker-status" class="pill">-</span>
+          </div>
+          <div id="broker-summary" class="broker-summary"></div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Instituição</th>
+                  <th>Recomendação</th>
+                  <th>Preço-alvo</th>
+                  <th>Data</th>
+                </tr>
+              </thead>
+              <tbody id="broker-table"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+  </body>
+</html>

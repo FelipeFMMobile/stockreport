@@ -1,0 +1,16 @@
+{
+  "results": [
+    {
+      "symbol": "ITUB4",
+      "financialData": {
+        "targetHighPrice": 45.0,
+        "targetLowPrice": 32.0,
+        "targetMeanPrice": 39.5,
+        "targetMedianPrice": 40.0,
+        "recommendationKey": "buy",
+        "numberOfAnalystOpinions": 14
+      }
+    }
+  ]
+}
+

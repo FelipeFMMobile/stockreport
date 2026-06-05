@@ -1,0 +1,159 @@
+{
+  "exported_at": "2026-06-04T20:48:21.467711-03:00",
+  "project_root": "/Users/felipemenezes/Codes/AIproj/StockReport",
+  "export_dir": "/Users/felipemenezes/Codes/AIproj/StockReport/reports/model_export/stock_variation_classifier",
+  "model_name": "Random Forest",
+  "model_artifact": "/Users/felipemenezes/Codes/AIproj/StockReport/reports/model_export/stock_variation_classifier/model.joblib",
+  "model_artifact_type": "joblib",
+  "best_metrics": {
+    "model": "Random Forest",
+    "accuracy": 0.4186202277294039,
+    "balanced_accuracy": 0.37023154009855885,
+    "macro_f1": 0.37036072840624706
+  },
+  "train_test_config": {
+    "random_state": 42,
+    "test_size": 0.2,
+    "train_rows": 11941,
+    "test_rows": 2986,
+    "modeling_rows": 14927
+  },
+  "feature_contract": {
+    "input_columns": [
+      "ticker",
+      "pl_calculado",
+      "ativo_total",
+      "passivo_total",
+      "ativo_circulante",
+      "receita_liquida",
+      "ebit",
+      "lucro_liquido",
+      "lucro_bruto",
+      "resultado_financeiro",
+      "margem_ebit_calculada",
+      "margem_liquida_calculada",
+      "margem_bruta_calculada",
+      "resultado_financeiro_pct",
+      "ativo_circulante_pct",
+      "passivo_total_pct",
+      "price_end_close",
+      "quarter_variation_close_pct",
+      "quarter_variation_adj_close_pct",
+      "p_vp_indicador",
+      "roe_indicador",
+      "roa_indicador",
+      "roic_indicador",
+      "margem_liquida_indicador",
+      "margem_ebit_indicador",
+      "margem_bruta_indicador",
+      "divida_liquida_indicador",
+      "liquidez_corrente_indicador"
+    ],
+    "categorical_features": [
+      "ticker"
+    ],
+    "numeric_features": [
+      "pl_calculado",
+      "ativo_total",
+      "passivo_total",
+      "ativo_circulante",
+      "receita_liquida",
+      "ebit",
+      "lucro_liquido",
+      "lucro_bruto",
+      "resultado_financeiro",
+      "margem_ebit_calculada",
+      "margem_liquida_calculada",
+      "margem_bruta_calculada",
+      "resultado_financeiro_pct",
+      "ativo_circulante_pct",
+      "passivo_total_pct",
+      "price_end_close",
+      "quarter_variation_close_pct",
+      "quarter_variation_adj_close_pct",
+      "p_vp_indicador",
+      "roe_indicador",
+      "roa_indicador",
+      "roic_indicador",
+      "margem_liquida_indicador",
+      "margem_ebit_indicador",
+      "margem_bruta_indicador",
+      "divida_liquida_indicador",
+      "liquidez_corrente_indicador"
+    ],
+    "blocked_features": [
+      "period",
+      "period_order",
+      "next_period"
+    ],
+    "target_column": "target_variation_class",
+    "target_return_column": "next_quarter_close_pct",
+    "target_class_column": "target_variation_class",
+    "class_order": [
+      "NH",
+      "N",
+      "S",
+      "P",
+      "PH"
+    ],
+    "class_rules": {
+      "NH": "next_quarter_close_pct <= -0.10",
+      "N": "-0.10 < next_quarter_close_pct < -0.03",
+      "S": "-0.03 <= next_quarter_close_pct <= 0.03",
+      "P": "0.03 < next_quarter_close_pct < 0.10",
+      "PH": "next_quarter_close_pct >= 0.10"
+    },
+    "feature_notes": {
+      "ticker": "Feature categorica usada pelo pipeline scikit-learn via OneHotEncoder ou pelo TensorFlow via embedding.",
+      "period": "Nao deve ser enviado ao modelo; usado apenas na analise e em testes visuais."
+    }
+  },
+  "model_comparison": [
+    {
+      "rank": 1,
+      "model": "Random Forest",
+      "accuracy": 0.4186202277294039,
+      "balanced_accuracy": 0.37023154009855885,
+      "macro_f1": 0.37036072840624706
+    },
+    {
+      "rank": 2,
+      "model": "HistGradientBoosting",
+      "accuracy": 0.3697253851306095,
+      "balanced_accuracy": 0.34113232537567906,
+      "macro_f1": 0.3422598389047441
+    },
+    {
+      "rank": 3,
+      "model": "TensorFlow Dense + Embedding",
+      "accuracy": 0.33891493636972536,
+      "balanced_accuracy": 0.31347168011436993,
+      "macro_f1": 0.312118536451991
+    },
+    {
+      "rank": 4,
+      "model": "Logistic Regression",
+      "accuracy": 0.297052913596785,
+      "balanced_accuracy": 0.29200234902438266,
+      "macro_f1": 0.2870810381295086
+    }
+  ],
+  "runtime": {
+    "python": "3.13.1",
+    "pandas": "3.0.3",
+    "numpy": "2.4.6",
+    "scikit_learn": "1.8.0"
+  },
+  "python_dependencies": [
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "joblib"
+  ],
+  "usage_summary": [
+    "Carregue model.joblib com joblib.load.",
+    "Monte um pandas.DataFrame contendo exatamente as colunas de feature_contract.input_columns.",
+    "Nao envie period, period_order ou next_period como features do modelo.",
+    "Use model.predict(frame[input_columns]) para obter as classes NH/N/S/P/PH."
+  ]
+}

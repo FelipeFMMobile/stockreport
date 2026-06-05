@@ -1,0 +1,28 @@
+{
+  "quoteSummary": {
+    "result": [
+      {
+        "financialData": {
+          "targetHighPrice": {"raw": 44.0, "fmt": "44.00"},
+          "targetLowPrice": {"raw": 31.0, "fmt": "31.00"},
+          "targetMeanPrice": {"raw": 38.2, "fmt": "38.20"},
+          "targetMedianPrice": {"raw": 38.5, "fmt": "38.50"},
+          "recommendationKey": "hold",
+          "numberOfAnalystOpinions": {"raw": 11, "fmt": "11"}
+        },
+        "recommendationTrend": {
+          "trend": [
+            {"strongBuy": 1, "buy": 3, "hold": 6, "sell": 1, "strongSell": 0}
+          ]
+        },
+        "upgradeDowngradeHistory": {
+          "history": [
+            {"firm": "Morgan Stanley", "toGrade": "Overweight", "epochGradeDate": 1770000000}
+          ]
+        }
+      }
+    ],
+    "error": null
+  }
+}
+

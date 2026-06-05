@@ -1,0 +1,318 @@
+ticker,period,predicted_class,predicted_class_meaning,current_price,price_end_close,price_difference_value,price_difference_pct,actual_class,actual_class_meaning,model_hit,prediction_status,feature_missing_count,pl_lpa_source
+ABCB4,1T2026,PH,alta forte (>= 10%),24.5,25.399999618530273,-0.8999996185302734,-0.035433056379799675,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,ttm_same_year
+ABEV3,1T2026,S,estabilidade (-3% a 3%),16.4,15.25,1.1499999999999986,0.07540983606557368,P,alta moderada (3% a 10%),False,previsto sem imputacao,0,ttm_same_year
+AERI3,1T2026,NH,queda forte (<= -10%),2.28,2.359999895095825,-0.07999989509582539,-0.03389826214063331,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+AFLT3,1T2026,S,estabilidade (-3% a 3%),7.35,7.369999885559082,-0.019999885559082387,-0.0027136887204395406,S,estabilidade (-3% a 3%),True,previsto sem imputacao,0,ttm_same_year
+AGRO3,1T2026,NH,queda forte (<= -10%),18.78,21.559999465942383,-2.7799994659423817,-0.12894246450858474,NH,queda forte (<= -10%),True,previsto sem imputacao,0,ttm_same_year
+ALLD3,1T2026,PH,alta forte (>= 10%),5.9,6.809999942779541,-0.9099999427795407,-0.13362701180994707,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+ALOS3,1T2026,P,alta moderada (3% a 10%),28.72,30.34000015258789,-1.6200001525878918,-0.05339486303363488,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+ALPA3,1T2026,PH,alta forte (>= 10%),10.04,11.68000030517578,-1.6400003051757803,-0.14041098136350597,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+ALPA4,1T2026,PH,alta forte (>= 10%),12.31,12.399999618530272,-0.08999961853027116,-0.007258033975725114,S,estabilidade (-3% a 3%),False,previsto sem imputacao,0,ttm_same_year
+ALPK3,1T2026,PH,alta forte (>= 10%),4.6,4.389999866485596,0.21000013351440394,0.047836022756538046,P,alta moderada (3% a 10%),False,previsto sem imputacao,0,ttm_same_year
+ALUP11,1T2026,S,estabilidade (-3% a 3%),33.12,35.18000030517578,-2.060000305175784,-0.05855600589272055,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+ALUP3,1T2026,S,estabilidade (-3% a 3%),12.31,13.149999618530272,-0.8399996185302712,-0.06387829984014516,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+ALUP4,1T2026,S,estabilidade (-3% a 3%),10.42,10.989999771118164,-0.5699997711181641,-0.05186531237390282,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+AMAR3,1T2026,NH,queda forte (<= -10%),0.69,0.8799999952316284,-0.18999999523162847,-0.21590908666041275,NH,queda forte (<= -10%),True,previsto sem imputacao,0,ttm_same_year
+AMER3,1T2026,PH,alta forte (>= 10%),5.49,5.179999828338623,0.31000017166137717,0.059845594968060696,P,alta moderada (3% a 10%),False,previsto sem imputacao,0,ttm_same_year
+AMOB3,1T2026,S,estabilidade (-3% a 3%),13.87,12.899999618530272,0.9700003814697276,0.07519383024448818,P,alta moderada (3% a 10%),False,previsto com imputacao,2,
+ANIM3,1T2026,NH,queda forte (<= -10%),3.32,4.300000190734863,-0.9800001907348634,-0.2279070109918723,NH,queda forte (<= -10%),True,previsto sem imputacao,0,ttm_same_year
+ARML3,1T2026,PH,alta forte (>= 10%),3.33,4.920000076293945,-1.5900000762939452,-0.3231707422028403,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+ASAI3,1T2026,NH,queda forte (<= -10%),8.48,9.479999542236328,-0.9999995422363277,-0.10548518887379905,NH,queda forte (<= -10%),True,previsto sem imputacao,0,ttm_same_year
+ATED3,1T2026,NH,queda forte (<= -10%),2.2,2.509999990463257,-0.30999999046325666,-0.12350597276537904,NH,queda forte (<= -10%),True,previsto com imputacao,2,
+AUAU3,1T2026,PH,alta forte (>= 10%),3.31,3.4700000286102295,-0.16000002861022944,-0.04610951795130419,N,queda moderada (-10% a -3%),False,previsto com imputacao,2,
+AURE3,1T2026,NH,queda forte (<= -10%),12.64,11.9399995803833,0.7000004196166998,0.0586265028657755,P,alta moderada (3% a 10%),False,previsto sem imputacao,0,ttm_same_year
+AVLL3,1T2026,PH,alta forte (>= 10%),0.64,0.6600000262260437,-0.020000026226043688,-0.030303068835324364,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+AXIA3,1T2026,S,estabilidade (-3% a 3%),54.68,58.560001373291016,-3.880001373291016,-0.06625685249831072,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+AXIA5,1T2026,S,estabilidade (-3% a 3%),64.63,64.62999725341797,2.7465820267025265e-06,4.249701598985095e-08,S,estabilidade (-3% a 3%),True,previsto sem imputacao,0,ttm_same_year
+AXIA6,1T2026,S,estabilidade (-3% a 3%),60.19,64.18000030517578,-3.9900003051757835,-0.0621689044282228,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+AXIA7,1T2026,S,estabilidade (-3% a 3%),52.71,56.63999938964844,-3.9299993896484366,-0.06938558319205572,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+AZEV3,1T2026,NH,queda forte (<= -10%),0.2,0.2599999904632568,-0.05999999046325677,-0.23076920255401306,NH,queda forte (<= -10%),True,previsto sem imputacao,0,ttm_same_year
+AZEV4,1T2026,NH,queda forte (<= -10%),0.14,0.209999993443489,-0.06999999344348898,-0.33333331251901194,NH,queda forte (<= -10%),True,previsto sem imputacao,0,ttm_same_year
+AZTE3,1T2026,PH,alta forte (>= 10%),0.22,0.4099999964237213,-0.1899999964237213,-0.4634146294659053,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+AZUL3,1T2026,NH,queda forte (<= -10%),30.79,228.8300018310547,-198.0400018310547,-0.865445965329615,NH,queda forte (<= -10%),True,previsto com imputacao,2,
+AZZA3,1T2026,S,estabilidade (-3% a 3%),19.95,25.700000762939453,-5.750000762939454,-0.22373543160478077,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+BALM3,1T2026,PH,alta forte (>= 10%),25.18,26.0,-0.8200000000000003,-0.03153846153846155,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+BALM4,1T2026,PH,alta forte (>= 10%),19.77,20.329999923706055,-0.5599999237060551,-0.027545495612769783,S,estabilidade (-3% a 3%),False,previsto com imputacao,10,
+BBAS3,1T2026,P,alta moderada (3% a 10%),20.82,23.0,-2.1799999999999997,-0.09478260869565217,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,ttm_same_year
+BBDC3,1T2026,P,alta moderada (3% a 10%),15.57,16.709999084472656,-1.139999084472656,-0.06822257013358973,N,queda moderada (-10% a -3%),False,previsto com imputacao,16,
+BBDC4,1T2026,P,alta moderada (3% a 10%),17.9,19.170000076293945,-1.2700000762939467,-0.06624935165568713,N,queda moderada (-10% a -3%),False,previsto com imputacao,16,
+BBSE3,1T2026,PH,alta forte (>= 10%),34.74,34.810001373291016,-0.07000137329101364,-0.002010955775047002,S,estabilidade (-3% a 3%),False,previsto com imputacao,10,ttm_same_year
+BDLL3,1T2026,PH,alta forte (>= 10%),6.2,7.010000228881836,-0.8100002288818358,-0.11554924428455243,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+BDLL4,1T2026,PH,alta forte (>= 10%),3.15,6.099999904632568,-2.9499999046325684,-0.4836065493037513,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+BEEF3,1T2026,PH,alta forte (>= 10%),4.03,4.25,-0.21999999999999975,-0.05176470588235288,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+BEES3,1T2026,PH,alta forte (>= 10%),8.61,8.720000267028809,-0.11000026702880916,-0.012614709135357616,S,estabilidade (-3% a 3%),False,previsto com imputacao,16,
+BEES4,1T2026,PH,alta forte (>= 10%),8.62,8.90999984741211,-0.28999984741211016,-0.03254768264629544,N,queda moderada (-10% a -3%),False,previsto com imputacao,16,
+BHIA3,1T2026,PH,alta forte (>= 10%),1.46,2.880000114440918,-1.420000114440918,-0.49305557569971714,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+BIED3,1T2026,NH,queda forte (<= -10%),7.49,6.380000114440918,1.1099998855590822,0.17398117016434442,PH,alta forte (>= 10%),False,previsto com imputacao,2,
+BIOM3,1T2026,PH,alta forte (>= 10%),7.1,7.599999904632568,-0.4999999046325687,-0.06578946196141325,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+BLAU3,1T2026,PH,alta forte (>= 10%),11.25,10.260000228881836,0.9899997711181641,0.096491203609462,P,alta moderada (3% a 10%),False,previsto sem imputacao,0,ttm_same_year
+BMEB3,1T2026,PH,alta forte (>= 10%),58.68,64.7699966430664,-6.0899966430664065,-0.09402496462408474,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,ttm_same_year
+BMEB4,1T2026,S,estabilidade (-3% a 3%),74.57,74.1500015258789,0.41999847412108693,0.005664173506112529,S,estabilidade (-3% a 3%),True,previsto com imputacao,10,ttm_same_year
+BMGB4,1T2026,PH,alta forte (>= 10%),5.26,5.0,0.2599999999999998,0.051999999999999956,P,alta moderada (3% a 10%),False,previsto com imputacao,5,ttm_same_year
+BMIN4,1T2026,S,estabilidade (-3% a 3%),17.6,18.0,-0.3999999999999986,-0.022222222222222143,S,estabilidade (-3% a 3%),True,previsto com imputacao,10,ttm_same_year
+BMOB3,1T2026,NH,queda forte (<= -10%),24.98,26.850000381469727,-1.8700003814697261,-0.06964619571328905,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+BPAC11,1T2026,P,alta moderada (3% a 10%),54.37,56.290000915527344,-1.9200009155273463,-0.03410909369869494,N,queda moderada (-10% a -3%),False,previsto com imputacao,14,
+BPAC3,1T2026,PH,alta forte (>= 10%),25.92,33.91999816894531,-7.999998168945311,-0.23584901535370742,NH,queda forte (<= -10%),False,previsto com imputacao,14,
+BPAC5,1T2026,P,alta moderada (3% a 10%),14.82,11.289999961853027,3.530000038146973,0.3126660806088784,PH,alta forte (>= 10%),False,previsto com imputacao,14,
+BRAV3,1T2026,NH,queda forte (<= -10%),20.15,20.56999969482422,-0.41999969482422017,-0.020418070056165322,S,estabilidade (-3% a 3%),False,previsto sem imputacao,0,ttm_same_year
+BRBI11,1T2026,P,alta moderada (3% a 10%),16.55,19.5,-2.9499999999999993,-0.15128205128205124,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+BRKM3,1T2026,PH,alta forte (>= 10%),8.6,8.140000343322754,0.45999965667724574,0.05651101195033532,P,alta moderada (3% a 10%),False,previsto com imputacao,10,
+BRKM5,1T2026,P,alta moderada (3% a 10%),12.03,9.399999618530272,2.6300003814697277,0.27978728597873487,PH,alta forte (>= 10%),False,previsto com imputacao,10,
+BRKM6,1T2026,PH,alta forte (>= 10%),7.02,8.109999656677246,-1.0899996566772465,-0.13440193622940683,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+BRSR3,1T2026,PH,alta forte (>= 10%),17.49,18.850000381469727,-1.3600003814697281,-0.0721485598911001,N,queda moderada (-10% a -3%),False,previsto com imputacao,16,
+BRSR5,1T2026,NH,queda forte (<= -10%),17.01,19.420000076293945,-2.4100000762939437,-0.12409887058836,NH,queda forte (<= -10%),True,previsto com imputacao,16,
+BRSR6,1T2026,PH,alta forte (>= 10%),14.82,17.25,-2.4299999999999997,-0.1408695652173913,NH,queda forte (<= -10%),False,previsto com imputacao,16,
+CALI3,1T2026,PH,alta forte (>= 10%),23.37,16.299999237060547,7.070000762939454,0.43374239839623574,PH,alta forte (>= 10%),True,previsto sem imputacao,0,ttm_same_year
+CAMB3,1T2026,S,estabilidade (-3% a 3%),10.39,9.649999618530272,0.7400003814697289,0.07668398038573535,P,alta moderada (3% a 10%),False,previsto sem imputacao,0,ttm_same_year
+CAML3,1T2026,NH,queda forte (<= -10%),5.67,6.079999923706055,-0.40999992370605476,-0.06743419882415722,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+CASH3,1T2026,PH,alta forte (>= 10%),4.2,3.6700000762939458,0.5299999237060544,0.14441414514662929,PH,alta forte (>= 10%),True,previsto com imputacao,10,
+CBAV3,1T2026,NH,queda forte (<= -10%),10.6,10.5,0.09999999999999964,0.00952380952380949,S,estabilidade (-3% a 3%),False,previsto sem imputacao,0,ttm_same_year
+CBEE3,1T2026,NH,queda forte (<= -10%),8.91,9.949999809265137,-1.0399998092651366,-0.10452259589962207,NH,queda forte (<= -10%),True,previsto sem imputacao,0,ttm_same_year
+CEAB3,1T2026,PH,alta forte (>= 10%),11.17,12.100000381469728,-0.9300003814697284,-0.07685953323554902,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+CEBR3,1T2026,N,queda moderada (-10% a -3%),28.27,32.279998779296875,-4.009998779296875,-0.12422549352352304,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+CEBR5,1T2026,PH,alta forte (>= 10%),26.8,29.799999237060547,-2.999999237060546,-0.10067111791498369,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+CEBR6,1T2026,PH,alta forte (>= 10%),30.3,32.099998474121094,-1.799998474121093,-0.05607472148549308,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+CEEB3,1T2026,P,alta moderada (3% a 10%),48.31,48.0,0.3100000000000023,0.006458333333333381,S,estabilidade (-3% a 3%),False,previsto sem imputacao,0,ttm_same_year
+CGRA3,1T2026,P,alta moderada (3% a 10%),25.07,25.899999618530273,-0.8299996185302732,-0.032046317789767305,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+CGRA4,1T2026,P,alta moderada (3% a 10%),24.92,26.520000457763672,-1.6000004577636702,-0.06033184125738857,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+CLSC3,1T2026,S,estabilidade (-3% a 3%),129.49,130.0,-0.5099999999999909,-0.003923076923076853,S,estabilidade (-3% a 3%),True,previsto com imputacao,10,
+CLSC4,1T2026,N,queda moderada (-10% a -3%),145.0,144.49000549316406,0.5099945068359375,0.003529617879764464,S,estabilidade (-3% a 3%),False,previsto com imputacao,10,
+CMIG3,1T2026,P,alta moderada (3% a 10%),16.28,16.75,-0.46999999999999886,-0.028059701492537246,S,estabilidade (-3% a 3%),False,previsto sem imputacao,0,ttm_same_year
+CMIG4,1T2026,P,alta moderada (3% a 10%),11.36,12.609999656677246,-1.2499996566772467,-0.09912765191990683,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+CMIN3,1T2026,PH,alta forte (>= 10%),4.43,4.949999809265137,-0.519999809265137,-0.10505047056604529,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+COCE3,1T2026,N,queda moderada (-10% a -3%),33.32,38.0,-4.68,-0.12315789473684209,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+COCE5,1T2026,P,alta moderada (3% a 10%),33.35,31.31999969482422,2.0300003051757827,0.06481482519015637,P,alta moderada (3% a 10%),True,previsto sem imputacao,0,ttm_same_year
+COGN3,1T2026,PH,alta forte (>= 10%),2.51,3.1600000858306885,-0.6500000858306887,-0.20569622410621524,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+CPFE3,1T2026,N,queda moderada (-10% a -3%),43.7,48.7599983215332,-5.0599983215332,-0.10377355405483317,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+CPLE3,1T2026,P,alta moderada (3% a 10%),14.9,15.43000030517578,-0.5300003051757791,-0.03434869051804217,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+CSAN3,1T2026,PH,alta forte (>= 10%),4.4,5.380000114440918,-0.9800001144409176,-0.18215615122579934,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+CSED3,1T2026,PH,alta forte (>= 10%),4.37,5.349999904632568,-0.9799999046325683,-0.18317755553303575,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+CSMG3,1T2026,PH,alta forte (>= 10%),51.14,57.70000076293945,-6.560000762939453,-0.1136915195181925,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+CSNA3,1T2026,PH,alta forte (>= 10%),6.34,6.329999923706055,0.01000007629394517,0.0015797909027604503,S,estabilidade (-3% a 3%),False,previsto com imputacao,10,
+CSUD3,1T2026,PH,alta forte (>= 10%),17.68,17.81999969482422,-0.13999969482421903,-0.007856324198753026,S,estabilidade (-3% a 3%),False,previsto com imputacao,10,
+CTAX3,1T2026,PH,alta forte (>= 10%),0.61,0.7400000095367432,-0.13000000953674318,-0.17567568629914768,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+CTKA4,1T2026,P,alta moderada (3% a 10%),35.25,45.060001373291016,-9.810001373291016,-0.21770974421465114,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+CURY3,1T2026,N,queda moderada (-10% a -3%),31.2,35.380001068115234,-4.180001068115235,-0.1181458717332343,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+CVCB3,1T2026,NH,queda forte (<= -10%),1.78,1.9800000190734863,-0.2000000190734863,-0.10101010967013704,NH,queda forte (<= -10%),True,previsto sem imputacao,0,ttm_same_year
+CXSE3,1T2026,P,alta moderada (3% a 10%),17.77,18.350000381469727,-0.580000381469727,-0.031607649559256976,N,queda moderada (-10% a -3%),False,previsto com imputacao,7,ttm_same_year
+CYRE3,1T2026,N,queda moderada (-10% a -3%),22.12,27.31999969482422,-5.199999694824218,-0.19033674058969186,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+CYRE4,1T2026,PH,alta forte (>= 10%),20.35,25.290000915527344,-4.940000915527342,-0.19533415328958417,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+DASA3,1T2026,PH,alta forte (>= 10%),3.13,2.9200000762939453,0.20999992370605458,0.07191778021204226,P,alta moderada (3% a 10%),False,previsto com imputacao,10,
+DESK3,1T2026,PH,alta forte (>= 10%),17.58,18.13999938964844,-0.5599993896484428,-0.030870970699591393,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+DEXP3,1T2026,PH,alta forte (>= 10%),7.17,7.139999866485596,0.030000133514404226,0.004201699450334962,S,estabilidade (-3% a 3%),False,previsto sem imputacao,0,ttm_same_year
+DEXP4,1T2026,PH,alta forte (>= 10%),7.2,7.130000114440918,0.06999988555908221,0.009817655601057601,S,estabilidade (-3% a 3%),False,previsto sem imputacao,0,ttm_same_year
+DIRR3,1T2026,PH,alta forte (>= 10%),13.12,13.300000190734863,-0.18000019073486406,-0.013533848733344908,S,estabilidade (-3% a 3%),False,previsto com imputacao,10,
+DMVF3,1T2026,NH,queda forte (<= -10%),5.81,7.139999866485596,-1.329999866485596,-0.18627449458766446,NH,queda forte (<= -10%),True,previsto sem imputacao,0,ttm_same_year
+DOHL4,1T2026,PH,alta forte (>= 10%),3.77,3.900000095367432,-0.13000009536743207,-0.03333335697141421,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+DOTZ3,1T2026,PH,alta forte (>= 10%),3.9,3.430000066757202,0.46999993324279776,0.13702621693740843,PH,alta forte (>= 10%),True,previsto com imputacao,10,
+DXCO3,1T2026,NH,queda forte (<= -10%),4.93,4.710000038146973,0.21999996185302706,0.04670912103422834,P,alta moderada (3% a 10%),False,previsto sem imputacao,0,ttm_same_year
+EALT3,1T2026,PH,alta forte (>= 10%),13.5,13.850000381469728,-0.35000038146972834,-0.025270784969652627,S,estabilidade (-3% a 3%),False,previsto sem imputacao,0,ttm_same_year
+EALT4,1T2026,PH,alta forte (>= 10%),12.87,13.279999732971191,-0.4099997329711922,-0.030873474489103863,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+ECOR3,1T2026,PH,alta forte (>= 10%),7.86,8.430000305175781,-0.5700003051757809,-0.06761569211638307,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+EGIE3,1T2026,PH,alta forte (>= 10%),32.34,32.83000183105469,-0.4900018310546841,-0.014925428075705424,S,estabilidade (-3% a 3%),False,previsto sem imputacao,0,ttm_same_year
+EKTR4,1T2026,S,estabilidade (-3% a 3%),38.51,38.900001525878906,-0.39000152587890824,-0.010025745773286228,S,estabilidade (-3% a 3%),True,previsto sem imputacao,0,ttm_same_year
+EMBJ3,1T2026,NH,queda forte (<= -10%),70.81,76.94999694824219,-6.139996948242185,-0.07979203628002801,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+ENEV3,1T2026,P,alta moderada (3% a 10%),25.52,24.540000915527344,0.9799990844726558,0.03993476152857741,P,alta moderada (3% a 10%),True,previsto com imputacao,10,
+ENGI11,1T2026,S,estabilidade (-3% a 3%),48.49,52.459999084472656,-3.9699990844726543,-0.07567668993055153,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+ENGI3,1T2026,PH,alta forte (>= 10%),12.1,12.760000228881836,-0.6600002288818363,-0.05172415494068313,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+ENGI4,1T2026,PH,alta forte (>= 10%),9.05,9.880000114440918,-0.8300001144409173,-0.08400810777600731,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+ENJU3,1T2026,P,alta moderada (3% a 10%),1.1,1.1200000047683716,-0.020000004768371493,-0.017857147038591054,S,estabilidade (-3% a 3%),False,previsto sem imputacao,0,ttm_same_year
+EPAR3,1T2026,PH,alta forte (>= 10%),2.2,3.0299999713897705,-0.8299999713897703,-0.27392738588346394,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+EQTL3,1T2026,P,alta moderada (3% a 10%),38.14,40.77000045776367,-2.6300004577636713,-0.0645082273297559,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+ESPA3,1T2026,PH,alta forte (>= 10%),0.84,1.1299999952316284,-0.28999999523162845,-0.25663716500475203,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+ETER3,1T2026,PH,alta forte (>= 10%),3.58,3.9700000286102295,-0.3900000286102294,-0.09823678231729283,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+EUCA3,1T2026,PH,alta forte (>= 10%),25.7,20.5,5.199999999999999,0.2536585365853658,PH,alta forte (>= 10%),True,previsto com imputacao,10,
+EUCA4,1T2026,PH,alta forte (>= 10%),27.15,20.399999618530273,6.750000381469725,0.3308823778280066,PH,alta forte (>= 10%),True,previsto com imputacao,10,
+EVEN3,1T2026,NH,queda forte (<= -10%),5.79,7.28000020980835,-1.4900002098083496,-0.2046703525915935,NH,queda forte (<= -10%),True,previsto sem imputacao,0,ttm_same_year
+EZTC3,1T2026,S,estabilidade (-3% a 3%),13.2,13.979999542236328,-0.7799995422363288,-0.055793960499054156,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+FESA3,1T2026,N,queda moderada (-10% a -3%),12.14,12.489999771118164,-0.3499997711181635,-0.028022400122656676,S,estabilidade (-3% a 3%),False,previsto com imputacao,10,
+FESA4,1T2026,NH,queda forte (<= -10%),6.17,8.210000038146973,-2.0400000381469727,-0.24847746999614,NH,queda forte (<= -10%),True,previsto com imputacao,10,
+FHER3,1T2026,NH,queda forte (<= -10%),4.09,4.079999923706055,0.01000007629394517,0.0024509991374856775,S,estabilidade (-3% a 3%),False,previsto sem imputacao,0,ttm_same_year
+FIQE3,1T2026,PH,alta forte (>= 10%),6.48,7.010000228881836,-0.5300002288818355,-0.07560630692966122,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+FLRY3,1T2026,PH,alta forte (>= 10%),15.69,15.93000030517578,-0.24000030517577997,-0.015065932239674975,S,estabilidade (-3% a 3%),False,previsto sem imputacao,0,ttm_same_year
+FRAS3,1T2026,PH,alta forte (>= 10%),21.77,22.670000076293945,-0.9000000762939457,-0.03970004734296747,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+GFSA3,1T2026,PH,alta forte (>= 10%),1.16,1.690000057220459,-0.5300000572204591,-0.3136094906956095,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+GGBR3,1T2026,N,queda moderada (-10% a -3%),20.23,17.690000534057617,2.5399994659423832,0.1435839112074789,PH,alta forte (>= 10%),False,previsto sem imputacao,0,ttm_same_year
+GGBR4,1T2026,N,queda moderada (-10% a -3%),23.5,19.0,4.5,0.23684210526315788,PH,alta forte (>= 10%),False,previsto sem imputacao,0,ttm_same_year
+GGPS3,1T2026,PH,alta forte (>= 10%),13.3,16.700000762939453,-3.4000007629394524,-0.20359285075511582,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+GMAT3,1T2026,PH,alta forte (>= 10%),4.43,4.699999809265137,-0.269999809265137,-0.05744677026005082,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+GOAU3,1T2026,P,alta moderada (3% a 10%),9.57,8.319999694824219,1.2500003051757815,0.15024042680595207,PH,alta forte (>= 10%),False,previsto sem imputacao,0,ttm_same_year
+GOAU4,1T2026,P,alta moderada (3% a 10%),10.28,8.539999961853027,1.740000038146972,0.20374707797649955,PH,alta forte (>= 10%),False,previsto sem imputacao,0,ttm_same_year
+GRND3,1T2026,N,queda moderada (-10% a -3%),4.08,4.739999771118164,-0.659999771118164,-0.13924046476535384,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+GSHP3,1T2026,PH,alta forte (>= 10%),2.9,2.950000047683716,-0.05000004768371591,-0.0169491684323785,S,estabilidade (-3% a 3%),False,previsto com imputacao,10,
+HAGA3,1T2026,N,queda moderada (-10% a -3%),2.63,2.5999999046325684,0.030000095367431534,0.011538498641472505,S,estabilidade (-3% a 3%),False,previsto sem imputacao,0,ttm_same_year
+HAGA4,1T2026,N,queda moderada (-10% a -3%),1.58,1.399999976158142,0.18000002384185798,0.12857144779088583,PH,alta forte (>= 10%),False,previsto sem imputacao,0,ttm_same_year
+HAPV3,1T2026,PH,alta forte (>= 10%),12.34,10.100000381469728,2.2399996185302715,0.2217821320719903,PH,alta forte (>= 10%),True,previsto com imputacao,10,
+HBOR3,1T2026,PH,alta forte (>= 10%),2.28,2.380000114440918,-0.10000011444091816,-0.042016852786752504,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+HBRE3,1T2026,N,queda moderada (-10% a -3%),2.91,2.950000047683716,-0.04000004768371568,-0.01355933797869697,S,estabilidade (-3% a 3%),False,previsto sem imputacao,0,ttm_same_year
+HBSA3,1T2026,NH,queda forte (<= -10%),3.25,4.079999923706055,-0.8299999237060547,-0.20343135765358714,NH,queda forte (<= -10%),True,previsto sem imputacao,0,ttm_same_year
+HBTS5,1T2026,PH,alta forte (>= 10%),30.0,35.88999938964844,-5.8899993896484375,-0.16411255195917498,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+HOOT4,1T2026,PH,alta forte (>= 10%),7.06,6.460000038146973,0.599999961853027,0.09287925051237844,P,alta moderada (3% a 10%),False,previsto com imputacao,10,
+HYPE3,1T2026,S,estabilidade (-3% a 3%),22.69,23.280000686645508,-0.5900006866455065,-0.02534367135925208,S,estabilidade (-3% a 3%),True,previsto sem imputacao,0,ttm_same_year
+IFCM3,1T2026,NH,queda forte (<= -10%),0.64,0.8799999952316284,-0.2399999952316284,-0.27272726878646975,NH,queda forte (<= -10%),True,previsto sem imputacao,0,ttm_same_year
+IGTI11,1T2026,P,alta moderada (3% a 10%),26.51,27.940000534057617,-1.4300005340576156,-0.051181120498351766,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+IGTI3,1T2026,PH,alta forte (>= 10%),3.62,3.2300000190734863,0.3899999809265138,0.12074302743762332,PH,alta forte (>= 10%),True,previsto sem imputacao,0,ttm_same_year
+IGTI4,1T2026,P,alta moderada (3% a 10%),11.54,12.039999961853027,-0.4999999618530282,-0.041528236165880784,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+INTB3,1T2026,NH,queda forte (<= -10%),14.38,14.649999618530272,-0.2699996185302709,-0.018430008570700426,S,estabilidade (-3% a 3%),False,previsto sem imputacao,0,ttm_same_year
+IRBR3,1T2026,NH,queda forte (<= -10%),52.9,54.599998474121094,-1.6999984741210952,-0.031135504059159415,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,ttm_same_year
+ISAE3,1T2026,N,queda moderada (-10% a -3%),34.17,34.38999938964844,-0.2199993896484358,-0.006397190856439989,S,estabilidade (-3% a 3%),False,previsto sem imputacao,0,ttm_same_year
+ISAE4,1T2026,P,alta moderada (3% a 10%),28.41,29.09000015258789,-0.6800001525878905,-0.02337573561433607,S,estabilidade (-3% a 3%),False,previsto sem imputacao,0,ttm_same_year
+ITSA3,1T2026,PH,alta forte (>= 10%),13.12,13.869999885559082,-0.7499998855590828,-0.05407353220961121,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+ITSA4,1T2026,P,alta moderada (3% a 10%),12.99,13.979999542236328,-0.9899995422363279,-0.07081542021838731,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+ITUB3,1T2026,P,alta moderada (3% a 10%),40.73,42.81999969482422,-2.089999694824222,-0.04880896099298306,N,queda moderada (-10% a -3%),False,previsto com imputacao,5,ttm_same_year
+ITUB4,1T2026,P,alta moderada (3% a 10%),40.12,43.47999954223633,-3.3599995422363307,-0.07727689920908205,N,queda moderada (-10% a -3%),False,previsto com imputacao,5,ttm_same_year
+JFEN3,1T2026,NH,queda forte (<= -10%),0.65,0.75,-0.09999999999999998,-0.1333333333333333,NH,queda forte (<= -10%),True,previsto sem imputacao,0,ttm_same_year
+JHSF3,1T2026,PH,alta forte (>= 10%),10.8,9.270000457763672,1.5299995422363288,0.1650484861578347,PH,alta forte (>= 10%),True,previsto sem imputacao,0,ttm_same_year
+JOPA3,1T2026,NH,queda forte (<= -10%),16.81,22.0,-5.190000000000001,-0.23590909090909096,NH,queda forte (<= -10%),True,previsto com imputacao,10,
+JSLG3,1T2026,NH,queda forte (<= -10%),7.06,7.639999866485596,-0.5799998664855961,-0.07591621421747437,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+KEPL3,1T2026,PH,alta forte (>= 10%),7.1,8.210000038146973,-1.110000038146973,-0.13520097843964252,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+KLBN11,1T2026,S,estabilidade (-3% a 3%),16.51,19.510000228881836,-3.0000002288818344,-0.15376730874870786,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+KLBN3,1T2026,PH,alta forte (>= 10%),3.32,3.900000095367432,-0.5800000953674322,-0.14871796953450805,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+KLBN4,1T2026,PH,alta forte (>= 10%),3.32,3.940000057220459,-0.6200000572204591,-0.1573604183289908,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+LAND3,1T2026,PH,alta forte (>= 10%),8.3,8.729999542236328,-0.4299995422363274,-0.049255391155057976,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+LAVV3,1T2026,PH,alta forte (>= 10%),11.75,14.260000228881836,-2.510000228881836,-0.17601684351997038,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+LEVE3,1T2026,P,alta moderada (3% a 10%),32.93,34.9900016784668,-2.060001678466797,-0.058874009135430914,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+LIGT3,1T2026,PH,alta forte (>= 10%),2.52,4.829999923706055,-2.3099999237060547,-0.47826086132390533,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+LJQQ3,1T2026,NH,queda forte (<= -10%),1.4,2.0,-0.6000000000000001,-0.30000000000000004,NH,queda forte (<= -10%),True,previsto sem imputacao,0,ttm_same_year
+LOGG3,1T2026,P,alta moderada (3% a 10%),25.35,27.6299991607666,-2.2799991607666,-0.08251897321821493,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+LOGN3,1T2026,PH,alta forte (>= 10%),30.0,32.150001525878906,-2.1500015258789062,-0.06687407228109393,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+LPSB3,1T2026,PH,alta forte (>= 10%),1.66,1.649999976158142,0.01000002384185783,0.006060620597790476,S,estabilidade (-3% a 3%),False,previsto com imputacao,10,
+LREN3,1T2026,PH,alta forte (>= 10%),14.85,14.960000038146973,-0.11000003814697301,-0.007352943707652438,S,estabilidade (-3% a 3%),False,previsto sem imputacao,0,ttm_same_year
+LUPA3,1T2026,PH,alta forte (>= 10%),0.8,0.7900000214576721,0.009999978542327925,0.012658200342673941,S,estabilidade (-3% a 3%),False,previsto com imputacao,10,
+LUXM4,1T2026,N,queda moderada (-10% a -3%),3.52,4.090000152587891,-0.5700001525878906,-0.13936433528669454,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+LWSA3,1T2026,PH,alta forte (>= 10%),3.67,3.799999952316284,-0.12999995231628425,-0.0342105141967286,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+MATD3,1T2026,PH,alta forte (>= 10%),5.16,5.730000019073486,-0.5700000190734862,-0.0994764427881542,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+MBRF3,1T2026,PH,alta forte (>= 10%),17.3,21.63999938964844,-4.33999938964844,-0.20055450610245823,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+MDIA3,1T2026,NH,queda forte (<= -10%),19.88,23.010000228881836,-3.130000228881837,-0.13602782258789828,NH,queda forte (<= -10%),True,previsto sem imputacao,0,ttm_same_year
+MDNE3,1T2026,PH,alta forte (>= 10%),28.1,32.25,-4.149999999999999,-0.12868217054263562,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+MEAL3,1T2026,PH,alta forte (>= 10%),0.97,0.9300000071525574,0.0399999928474426,0.04301074466645783,P,alta moderada (3% a 10%),False,previsto com imputacao,10,
+MELK3,1T2026,PH,alta forte (>= 10%),3.28,3.440000057220459,-0.16000005722045918,-0.04651164376716325,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+MGEL4,1T2026,PH,alta forte (>= 10%),5.75,6.010000228881836,-0.26000022888183594,-0.043261267717157666,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+MGLU3,1T2026,NH,queda forte (<= -10%),6.77,8.770000457763672,-2.0000004577636723,-0.22805021133073777,NH,queda forte (<= -10%),True,previsto sem imputacao,0,ttm_same_year
+MILS3,1T2026,PH,alta forte (>= 10%),13.28,13.829999923706056,-0.5499999237060571,-0.039768613647155567,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+MLAS3,1T2026,PH,alta forte (>= 10%),1.67,1.2899999618530271,0.3800000381469728,0.29457368169307524,PH,alta forte (>= 10%),True,previsto sem imputacao,0,ttm_same_year
+MNDL3,1T2026,PH,alta forte (>= 10%),16.99,18.200000762939453,-1.2100007629394547,-0.0664835556162927,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+MNPR3,1T2026,PH,alta forte (>= 10%),3.89,4.179999828338623,-0.2899998283386229,-0.06937795221247314,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+MOTV3,1T2026,P,alta moderada (3% a 10%),15.0,15.8100004196167,-0.8100004196166992,-0.051233421765863374,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+MOVI3,1T2026,NH,queda forte (<= -10%),9.58,12.90999984741211,-3.3299998474121093,-0.25793957294892056,NH,queda forte (<= -10%),True,previsto sem imputacao,0,ttm_same_year
+MRSA3B,1T2026,N,queda moderada (-10% a -3%),42.99,47.650001525878906,-4.660001525878904,-0.09779646120993384,N,queda moderada (-10% a -3%),True,previsto com imputacao,10,
+MRVE3,1T2026,PH,alta forte (>= 10%),6.23,7.869999885559082,-1.6399998855590816,-0.20838626549008857,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+MTRE3,1T2026,NH,queda forte (<= -10%),3.6,3.7699999809265137,-0.16999998092651358,-0.04509283336514353,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+MTSA4,1T2026,P,alta moderada (3% a 10%),53.98,64.69999694824219,-10.71999694824219,-0.1656877504463845,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+MULT3,1T2026,N,queda moderada (-10% a -3%),30.13,31.809999465942383,-1.6799994659423838,-0.05281356473272148,N,queda moderada (-10% a -3%),True,previsto sem imputacao,0,ttm_same_year
+MWET4,1T2026,NH,queda forte (<= -10%),13.8,25.170000076293945,-11.370000076293945,-0.45172824957607527,NH,queda forte (<= -10%),True,previsto com imputacao,10,
+MYPK3,1T2026,NH,queda forte (<= -10%),9.09,9.140000343322754,-0.05000034332275405,-0.0054704968757776804,S,estabilidade (-3% a 3%),False,previsto sem imputacao,0,ttm_same_year
+NATU3,1T2026,NH,queda forte (<= -10%),10.2,10.4399995803833,-0.2399995803833015,-0.022988466477935433,S,estabilidade (-3% a 3%),False,previsto com imputacao,10,
+NEXP3,1T2026,NH,queda forte (<= -10%),2.55,2.700000047683716,-0.150000047683716,-0.0555555722350444,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+NGRD3,1T2026,PH,alta forte (>= 10%),33.43,29.700000762939453,3.7299992370605466,0.12558919667486848,PH,alta forte (>= 10%),True,previsto com imputacao,10,
+NUTR3,1T2026,PH,alta forte (>= 10%),2.44,2.25,0.18999999999999995,0.08444444444444442,P,alta moderada (3% a 10%),False,previsto com imputacao,10,
+OBTC3,1T2026,N,queda moderada (-10% a -3%),6.75,7.059999942779541,-0.309999942779541,-0.043909340692925444,N,queda moderada (-10% a -3%),True,previsto com imputacao,10,
+OFSA3,1T2026,PH,alta forte (>= 10%),31.4,27.540000915527344,3.859999084472655,0.14015972970779192,PH,alta forte (>= 10%),True,previsto sem imputacao,0,ttm_same_year
+ONCO3,1T2026,PH,alta forte (>= 10%),1.37,1.5399999618530271,-0.16999996185302702,-0.11038958835328289,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+OPCT3,1T2026,PH,alta forte (>= 10%),10.1,9.0600004196167,1.0399995803833004,0.11479023534386322,PH,alta forte (>= 10%),True,previsto sem imputacao,0,ttm_same_year
+ORVR3,1T2026,S,estabilidade (-3% a 3%),78.74,71.37000274658203,7.369997253417964,0.10326463457745795,PH,alta forte (>= 10%),False,previsto sem imputacao,0,ttm_same_year
+OSXB3,1T2026,NH,queda forte (<= -10%),1.4,1.7100000381469729,-0.31000003814697297,-0.18128656797160186,NH,queda forte (<= -10%),True,previsto sem imputacao,0,ttm_same_year
+PATI3,1T2026,P,alta moderada (3% a 10%),34.0,35.0,-1.0,-0.02857142857142857,S,estabilidade (-3% a 3%),False,previsto com imputacao,10,
+PATI4,1T2026,P,alta moderada (3% a 10%),30.0,37.0,-7.0,-0.1891891891891892,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+PCAR3,1T2026,PH,alta forte (>= 10%),2.11,2.2100000381469727,-0.10000003814697278,-0.04524888525830986,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+PDGR3,1T2026,PH,alta forte (>= 10%),1.51,1.7000000476837158,-0.1900000476837158,-0.11176473079668127,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+PDTC3,1T2026,PH,alta forte (>= 10%),1.5,1.440000057220459,0.059999942779541016,0.041666625274553885,P,alta moderada (3% a 10%),False,previsto sem imputacao,0,ttm_same_year
+PEAB3,1T2026,S,estabilidade (-3% a 3%),39.99,39.0,0.990000000000002,0.025384615384615436,S,estabilidade (-3% a 3%),True,previsto sem imputacao,0,ttm_same_year
+PEAB4,1T2026,NH,queda forte (<= -10%),39.32,41.959999084472656,-2.639999084472656,-0.0629170434240927,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+PETR3,1T2026,PH,alta forte (>= 10%),50.3,53.90999984741211,-3.609999847412112,-0.06696345497365841,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+PETR4,1T2026,PH,alta forte (>= 10%),44.95,48.66999816894531,-3.7199981689453097,-0.07643308627282659,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+PFRM3,1T2026,PH,alta forte (>= 10%),6.35,8.270000457763672,-1.9200004577636722,-0.23216449232009695,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+PGMN3,1T2026,PH,alta forte (>= 10%),4.61,6.210000038146973,-1.6000000381469723,-0.25764895786126324,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+PINE3,1T2026,PH,alta forte (>= 10%),12.92,12.640000343322754,0.279999656677246,0.022151870970886445,S,estabilidade (-3% a 3%),False,previsto com imputacao,10,ttm_same_year
+PINE4,1T2026,PH,alta forte (>= 10%),14.34,13.279999732971191,1.0600002670288085,0.07981929882099854,P,alta moderada (3% a 10%),False,previsto com imputacao,10,ttm_same_year
+PLAS3,1T2026,PH,alta forte (>= 10%),2.87,3.990000009536743,-1.120000009536743,-0.28070175610520365,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+PLPL3,1T2026,NH,queda forte (<= -10%),10.28,13.329999923706056,-3.049999923706057,-0.22880719738654617,NH,queda forte (<= -10%),True,previsto sem imputacao,0,ttm_same_year
+PNVL3,1T2026,PH,alta forte (>= 10%),12.07,14.399999618530272,-2.3299996185302714,-0.16180553335098502,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+POMO3,1T2026,PH,alta forte (>= 10%),5.87,5.809999942779541,0.06000005722045909,0.010327032325538145,S,estabilidade (-3% a 3%),False,previsto sem imputacao,0,ttm_same_year
+POMO4,1T2026,PH,alta forte (>= 10%),5.98,6.199999809265137,-0.2199998092651363,-0.03548384129566805,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+POSI3,1T2026,PH,alta forte (>= 10%),4.09,4.099999904632568,-0.009999904632568501,-0.0024390011866267758,S,estabilidade (-3% a 3%),False,previsto com imputacao,10,
+PRIO3,1T2026,N,queda moderada (-10% a -3%),68.0,66.20999908447266,1.7900009155273438,0.027035205260214672,S,estabilidade (-3% a 3%),False,previsto sem imputacao,0,ttm_same_year
+PRNR3,1T2026,NH,queda forte (<= -10%),18.87,19.5,-0.629999999999999,-0.03230769230769226,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+PSSA3,1T2026,S,estabilidade (-3% a 3%),49.46,50.5099983215332,-1.0499983215332023,-0.020787930240052523,S,estabilidade (-3% a 3%),True,previsto sem imputacao,0,ttm_same_year
+PTBL3,1T2026,NH,queda forte (<= -10%),1.94,2.9600000381469727,-1.0200000381469727,-0.3445946030411256,NH,queda forte (<= -10%),True,previsto sem imputacao,0,ttm_same_year
+PTNT3,1T2026,NH,queda forte (<= -10%),8.5,9.199999809265137,-0.6999998092651367,-0.07608693736712699,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,annual_previous_year
+PTNT4,1T2026,NH,queda forte (<= -10%),8.33,8.630000114440918,-0.3000001144409179,-0.034762469346775085,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,annual_previous_year
+QUAL3,1T2026,N,queda moderada (-10% a -3%),1.87,2.119999885559082,-0.24999988555908192,-0.11792448068606969,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+RADL3,1T2026,NH,queda forte (<= -10%),18.65,23.530000686645508,-4.880000686645509,-0.20739483825919147,NH,queda forte (<= -10%),True,previsto sem imputacao,0,ttm_same_year
+RAIL3,1T2026,PH,alta forte (>= 10%),14.67,16.25,-1.58,-0.09723076923076923,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+RANI3,1T2026,PH,alta forte (>= 10%),8.06,9.770000457763672,-1.7100004577636714,-0.1750256271896927,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+RAPT3,1T2026,NH,queda forte (<= -10%),5.0,5.460000038146973,-0.46000003814697266,-0.08424909064709248,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+RAPT4,1T2026,NH,queda forte (<= -10%),5.0,5.550000190734863,-0.5500001907348633,-0.0990991300600368,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+RCSL3,1T2026,NH,queda forte (<= -10%),0.37,0.699999988079071,-0.32999998807907105,-0.4714285624270535,NH,queda forte (<= -10%),True,previsto com imputacao,14,
+RCSL4,1T2026,PH,alta forte (>= 10%),0.49,0.9399999976158142,-0.4499999976158142,-0.47872340293316995,NH,queda forte (<= -10%),False,previsto com imputacao,14,
+RDOR3,1T2026,N,queda moderada (-10% a -3%),34.59,38.970001220703125,-4.380001220703122,-0.11239417714917112,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+RECV3,1T2026,NH,queda forte (<= -10%),12.22,14.029999732971191,-1.8099997329711908,-0.12900924928156643,NH,queda forte (<= -10%),True,previsto sem imputacao,0,ttm_same_year
+REDE3,1T2026,PH,alta forte (>= 10%),5.99,6.230000019073486,-0.24000001907348611,-0.03852327742194429,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+RENT3,1T2026,PH,alta forte (>= 10%),44.04,46.97999954223633,-2.939999542236329,-0.06257981206647709,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+RENT4,1T2026,S,estabilidade (-3% a 3%),42.31,45.290000915527344,-2.9800009155273415,-0.06579820833047655,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+RIAA3,1T2026,PH,alta forte (>= 10%),9.17,9.300000190734863,-0.13000019073486335,-0.013978514846093896,S,estabilidade (-3% a 3%),False,previsto com imputacao,10,
+RNEW3,1T2026,PH,alta forte (>= 10%),0.91,1.0700000524520874,-0.16000005245208737,-0.14953275197082466,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+RNEW4,1T2026,S,estabilidade (-3% a 3%),0.9,1.0299999713897705,-0.12999997138977049,-0.12621356796191227,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+ROMI3,1T2026,S,estabilidade (-3% a 3%),6.44,7.150000095367432,-0.7100000953674312,-0.09930071131431853,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+RSUL4,1T2026,N,queda moderada (-10% a -3%),63.87,59.869998931884766,4.000001068115232,0.06681144378616256,P,alta moderada (3% a 10%),False,previsto com imputacao,10,
+SANB11,1T2026,PH,alta forte (>= 10%),27.59,30.63999938964844,-3.049999389648441,-0.09954306300276453,N,queda moderada (-10% a -3%),False,previsto com imputacao,5,ttm_same_year
+SANB3,1T2026,PH,alta forte (>= 10%),13.25,14.829999923706056,-1.5799999237060565,-0.1065407910879618,NH,queda forte (<= -10%),False,previsto com imputacao,5,ttm_same_year
+SANB4,1T2026,PH,alta forte (>= 10%),14.38,15.699999809265137,-1.319999809265136,-0.08407642199372234,N,queda moderada (-10% a -3%),False,previsto com imputacao,5,ttm_same_year
+SBFG3,1T2026,PH,alta forte (>= 10%),10.78,12.289999961853027,-1.509999961853028,-0.12286411444588462,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+SBSP3,1T2026,PH,alta forte (>= 10%),28.62,31.64800071716309,-3.0280007171630885,-0.09567747246419163,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+SCAR3,1T2026,PH,alta forte (>= 10%),13.57,15.0,-1.4299999999999997,-0.09533333333333331,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+SEER3,1T2026,PH,alta forte (>= 10%),11.99,13.25,-1.2599999999999998,-0.0950943396226415,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+SHOW3,1T2026,PH,alta forte (>= 10%),5.8,4.440000057220459,1.3599999427795408,0.306306289471296,PH,alta forte (>= 10%),True,previsto com imputacao,10,
+SHUL4,1T2026,PH,alta forte (>= 10%),4.9,5.179999828338623,-0.2799998283386227,-0.05405402270610244,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+SIMH3,1T2026,NH,queda forte (<= -10%),9.28,11.5,-2.2200000000000006,-0.19304347826086962,NH,queda forte (<= -10%),True,previsto sem imputacao,0,ttm_same_year
+SLCE3,1T2026,NH,queda forte (<= -10%),16.5,18.709999084472656,-2.2099990844726562,-0.11811860997399644,NH,queda forte (<= -10%),True,previsto com imputacao,10,
+SMFT3,1T2026,PH,alta forte (>= 10%),19.5,19.15999984741211,0.3400001525878906,0.017745310819186334,S,estabilidade (-3% a 3%),False,previsto sem imputacao,0,ttm_same_year
+SNSY5,1T2026,NH,queda forte (<= -10%),2.1,2.3299999237060547,-0.2299999237060546,-0.09871241684000615,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+SOJA3,1T2026,PH,alta forte (>= 10%),6.39,7.130000114440918,-0.7400001144409183,-0.10378683065406144,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+SOND5,1T2026,S,estabilidade (-3% a 3%),76.0,74.0,2.0,0.02702702702702703,S,estabilidade (-3% a 3%),True,previsto com imputacao,10,
+SOND6,1T2026,P,alta moderada (3% a 10%),70.21,60.13999938964844,10.070000610351556,0.1674426457025347,PH,alta forte (>= 10%),False,previsto com imputacao,10,
+SUZB3,1T2026,S,estabilidade (-3% a 3%),42.26,51.900001525878906,-9.640001525878908,-0.1857418351148239,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+SYNE3,1T2026,PH,alta forte (>= 10%),3.78,4.019999980926514,-0.23999998092651387,-0.059701488075927706,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+TAEE11,1T2026,S,estabilidade (-3% a 3%),38.42,43.0099983215332,-4.589998321533201,-0.10671933272862259,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+TAEE3,1T2026,S,estabilidade (-3% a 3%),12.8,14.100000381469728,-1.3000003814697276,-0.09219860612047875,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+TAEE4,1T2026,S,estabilidade (-3% a 3%),12.9,14.5,-1.5999999999999996,-0.11034482758620687,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+TASA3,1T2026,PH,alta forte (>= 10%),4.74,5.090000152587891,-0.3500001525878904,-0.06876230689500885,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+TASA4,1T2026,PH,alta forte (>= 10%),4.33,4.880000114440918,-0.5500001144409179,-0.11270493884075025,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+TCSA3,1T2026,NH,queda forte (<= -10%),1.15,1.2799999713897705,-0.1299999713897706,-0.10156247991835661,NH,queda forte (<= -10%),True,previsto sem imputacao,0,ttm_same_year
+TECN3,1T2026,N,queda moderada (-10% a -3%),8.69,8.899999618530273,-0.20999961853027393,-0.023595463767553827,S,estabilidade (-3% a 3%),False,previsto com imputacao,10,
+TEND3,1T2026,PH,alta forte (>= 10%),32.39,31.200000762939453,1.1899992370605474,0.038141000255169026,P,alta moderada (3% a 10%),False,previsto sem imputacao,0,ttm_same_year
+TFCO4,1T2026,PH,alta forte (>= 10%),14.74,16.3700008392334,-1.6300008392333982,-0.09957243467739069,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+TGMA3,1T2026,PH,alta forte (>= 10%),32.08,31.280000686645508,0.7999993133544905,0.025575425057328637,S,estabilidade (-3% a 3%),False,previsto sem imputacao,0,ttm_same_year
+TIMS3,1T2026,P,alta moderada (3% a 10%),22.65,27.459999084472656,-4.809999084472658,-0.17516384722650946,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+TOTS3,1T2026,PH,alta forte (>= 10%),32.27,34.939998626708984,-2.6699986267089812,-0.07641667806672349,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+TPIS3,1T2026,NH,queda forte (<= -10%),10.36,6.800000190734863,3.559999809265136,0.5235293690308579,PH,alta forte (>= 10%),False,previsto sem imputacao,0,ttm_same_year
+TRAD3,1T2026,PH,alta forte (>= 10%),1.46,2.190000057220459,-0.730000057220459,-0.33333335075204185,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+TRIS3,1T2026,PH,alta forte (>= 10%),4.46,5.769999980926514,-1.3099999809265137,-0.22703639259218183,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+TTEN3,1T2026,P,alta moderada (3% a 10%),16.26,16.0,0.26000000000000156,0.016250000000000098,S,estabilidade (-3% a 3%),False,previsto com imputacao,10,
+TUPY3,1T2026,P,alta moderada (3% a 10%),13.16,13.470000267028809,-0.31000026702880845,-0.02301412478718442,S,estabilidade (-3% a 3%),False,previsto com imputacao,10,
+UCAS3,1T2026,S,estabilidade (-3% a 3%),1.35,1.4900000095367432,-0.14000000953674308,-0.09395973734273369,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+UGPA3,1T2026,NH,queda forte (<= -10%),29.15,28.719999313354492,0.4300006866455064,0.014972169113025036,S,estabilidade (-3% a 3%),False,previsto com imputacao,10,
+UNIP3,1T2026,P,alta moderada (3% a 10%),58.45,59.70000076293945,-1.2500007629394503,-0.020938035962562756,S,estabilidade (-3% a 3%),False,previsto com imputacao,10,
+UNIP5,1T2026,P,alta moderada (3% a 10%),60.46,59.75,0.7100000000000009,0.011882845188284533,S,estabilidade (-3% a 3%),False,previsto com imputacao,10,
+UNIP6,1T2026,P,alta moderada (3% a 10%),60.29,62.38999938964844,-2.0999993896484384,-0.03365923080930281,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+USIM3,1T2026,NH,queda forte (<= -10%),9.17,6.659999847412109,2.5100001525878906,0.3768769084226341,PH,alta forte (>= 10%),False,previsto sem imputacao,0,ttm_same_year
+USIM5,1T2026,NH,queda forte (<= -10%),9.8,6.739999771118164,3.0600002288818366,0.4540059840942967,PH,alta forte (>= 10%),False,previsto sem imputacao,0,ttm_same_year
+USIM6,1T2026,S,estabilidade (-3% a 3%),8.0,8.0,0.0,0.0,S,estabilidade (-3% a 3%),True,previsto sem imputacao,0,ttm_same_year
+VALE3,1T2026,N,queda moderada (-10% a -3%),82.63,82.4800033569336,0.1499966430664017,0.0018185819224241387,S,estabilidade (-3% a 3%),False,previsto sem imputacao,0,ttm_same_year
+VAMO3,1T2026,PH,alta forte (>= 10%),3.37,3.7200000286102295,-0.3500000286102294,-0.09408602847268993,N,queda moderada (-10% a -3%),False,previsto sem imputacao,0,ttm_same_year
+VBBR3,1T2026,NH,queda forte (<= -10%),33.41,31.6200008392334,1.7899991607665982,0.056609712626750054,P,alta moderada (3% a 10%),False,previsto sem imputacao,0,ttm_same_year
+VITT3,1T2026,N,queda moderada (-10% a -3%),3.47,3.9454538822174072,-0.47545388221740703,-0.12050676459819484,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+VIVA3,1T2026,PH,alta forte (>= 10%),22.32,25.90999984741211,-3.589999847412109,-0.13855653680255342,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+VIVT3,1T2026,P,alta moderada (3% a 10%),35.29,41.22999954223633,-5.939999542236329,-0.14406984254635627,NH,queda forte (<= -10%),False,previsto com imputacao,10,
+VLID3,1T2026,N,queda moderada (-10% a -3%),17.2,20.299999237060547,-3.0999992370605476,-0.152709327761996,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+VSTE3,1T2026,PH,alta forte (>= 10%),3.95,3.359999895095825,0.590000104904175,0.1755952747990632,PH,alta forte (>= 10%),True,previsto com imputacao,10,
+VTRU3,1T2026,PH,alta forte (>= 10%),13.89,13.68000030517578,0.2099996948242211,0.015350854542361994,S,estabilidade (-3% a 3%),False,previsto sem imputacao,0,ttm_same_year
+VULC3,1T2026,PH,alta forte (>= 10%),15.18,17.520000457763672,-2.340000457763672,-0.13356166647397222,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+VVEO3,1T2026,PH,alta forte (>= 10%),1.22,1.2400000095367432,-0.02000000953674319,-0.016129039824939257,S,estabilidade (-3% a 3%),False,previsto com imputacao,10,
+WDCN3,1T2026,PH,alta forte (>= 10%),2.45,2.369999885559082,0.08000011444091815,0.033755324178864315,P,alta moderada (3% a 10%),False,previsto com imputacao,10,
+WEGE3,1T2026,N,queda moderada (-10% a -3%),42.47,51.0099983215332,-8.539998321533204,-0.16741812590744892,NH,queda forte (<= -10%),False,previsto sem imputacao,0,ttm_same_year
+WHRL3,1T2026,PH,alta forte (>= 10%),4.04,4.039999961853027,3.814697269177714e-08,9.44232006236957e-09,S,estabilidade (-3% a 3%),False,previsto com imputacao,10,
+WHRL4,1T2026,PH,alta forte (>= 10%),4.01,4.400000095367432,-0.39000009536743185,-0.0886363833896381,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+WIZC3,1T2026,PH,alta forte (>= 10%),8.15,8.930000305175781,-0.7800003051757809,-0.08734605582529452,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+WLMM4,1T2026,P,alta moderada (3% a 10%),20.39,21.18000030517578,-0.7900003051757807,-0.037299352870298466,N,queda moderada (-10% a -3%),False,previsto com imputacao,10,
+YDUQ3,1T2026,NH,queda forte (<= -10%),9.73,12.109999656677246,-2.3799996566772457,-0.19653176912890782,NH,queda forte (<= -10%),True,previsto sem imputacao,0,ttm_same_year
