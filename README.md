@@ -1,80 +1,14 @@
 # StockReport
 
-Projeto para analise e geracao de relatorios relacionados a dados de acoes.
+Aplicacao para estimar preco-alvo de acoes da bolsa brasileira com base em um modelo treinado sobre series historicas da variacao dos papeis apos balancos e resultados trimestrais.
 
-## Objetivo
+## Visao geral
 
-Este repositorio sera usado para organizar notebooks, scripts Python, dados processados e documentacao do projeto.
-
-## Estrutura sugerida
-
-```text
-.
-├── notebooks/      # Notebooks Jupyter de exploracao e analise
-├── src/            # Codigo Python reutilizavel
-├── data/           # Dados locais ou temporarios
-├── reports/        # Relatorios gerados
-└── README.md
-```
-
-## Como comecar
-
-1. Crie e ative um ambiente virtual.
-2. Instale as dependencias do projeto.
-3. Para a coleta via API, configure `DDM_API_TOKEN` com o token da API Dados de Mercado.
-4. Execute o coletor para gerar os CSVs.
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -e ".[dev]"
-export DDM_API_TOKEN="seu_token"
-stock-report
-```
-
-O modo padrao usa a API autenticada e cria os seguintes arquivos:
-
-- `data/raw/companies.csv`
-- `data/raw/balances.csv`
-- `data/raw/incomes_ttm.csv`
-- `data/raw/cash_flows_ttm.csv`
-- `data/raw/ratios_ttm.csv`
-- `data/raw/shares.csv`
-- `data/raw/tickers.csv`
-- `data/processed/b3_financials_last_year.csv`
-
-Todos os datasets incluem `cvm_code` como codigo de juncao. A coleta aplica uma pausa de 1 segundo entre empresas diferentes para reduzir o risco de atingir o limite de requisicoes da API.
-
-Tambem existe uma coleta baseada no site publico, sem token:
-
-```bash
-stock-report --source site
-```
-
-Esse modo le a lista publica em `https://www.dadosdemercado.com.br/acoes`, acessa cada pagina de ticker e exporta as tabelas HTML equivalentes aos botoes "Baixar em .csv". Os arquivos por ticker ficam em:
-
-- `data/site/raw/{TICKER}/indicadores.csv`
-- `data/site/raw/{TICKER}/balancos.csv`
-- `data/site/raw/{TICKER}/resultados.csv`
-
-Os consolidados em formato long/tidy ficam em:
-
-- `data/site/processed/indicadores.csv`
-- `data/site/processed/balancos.csv`
-- `data/site/processed/resultados.csv`
-- `data/site/processed/errors.csv`
-
-Cada consolidado usa `ticker`, `topic`, `account`, `period`, `value_raw`, `source_url` e `collected_at`. O campo `value_raw` preserva o texto original do site, incluindo percentuais, virgulas decimais e sufixos como `M`, `B` e `Mil`.
-
-Para uma coleta curta de validacao:
-
-```bash
-stock-report --source site --ticker-limit 2 --sleep-seconds 0
-```
+O StockReport consulta tickers da B3, exibe a cotacao atual, monta fundamentos financeiros a partir da base local e executa um modelo de classificacao para projetar uma faixa de retorno esperada. A partir dessa classificacao, a aplicacao calcula um preco-alvo de 12 meses e compara o resultado com fontes publicas de recomendacao quando disponiveis.
 
 ## Aplicacao web local
 
-O repositorio tambem inclui uma aplicacao web local em `application/` para consultar tickers da B3, exibir cotacao atual, rodar o modelo de classificacao exportado e comparar o preco-alvo previsto com fontes publicas de recomendacao.
+A aplicacao em `application/` roda localmente e combina interface web com API para analise de tickers.
 
 A aplicacao roda em um unico processo:
 
@@ -269,5 +203,5 @@ Cada item de `sources` informa o resultado por fonte (`success`, `partial`, `err
 
 ## Observacoes
 
-- Arquivos temporarios, ambientes virtuais, caches Python e checkpoints de notebooks sao ignorados pelo Git.
+- Arquivos temporarios, ambientes virtuais e caches Python sao ignorados pelo Git.
 - Dados sensiveis ou credenciais nao devem ser versionados.
