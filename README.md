@@ -3,6 +3,7 @@
 Aplicacao para estimar preco-alvo de acoes da bolsa brasileira com base em um modelo treinado sobre series historicas da variacao dos papeis apos balancos e resultados trimestrais.
 
 <img width="639" height="804" alt="Captura de Tela 2026-06-09 às 17 35 18" src="https://github.com/user-attachments/assets/0be9603a-bfc2-4172-8d73-697506b2c048" />
+
 ## Visao geral
 
 O StockReport consulta tickers da B3, exibe a cotacao atual, monta fundamentos financeiros a partir da base local e executa um modelo de classificacao para projetar uma faixa de retorno esperada. A partir dessa classificacao, a aplicacao calcula um preco-alvo de 12 meses e compara o resultado com fontes publicas de recomendacao quando disponiveis.
