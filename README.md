@@ -2,7 +2,7 @@
 
 Aplicacao para estimar preco-alvo de acoes da bolsa brasileira com base em um modelo treinado sobre series historicas da variacao dos papeis apos balancos e resultados trimestrais.
 
-<img width="639" height="804" alt="Captura de Tela 2026-06-09 às 17 35 18" src="https://github.com/user-attachments/assets/0be9603a-bfc2-4172-8d73-697506b2c048" />
+<img width="740" height="860" alt="Captura de Tela 2026-06-09 às 17 35 18" src="https://github.com/user-attachments/assets/0be9603a-bfc2-4172-8d73-697506b2c048" />
 
 ## Visao geral
 
