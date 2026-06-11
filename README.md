@@ -17,24 +17,6 @@ A aplicacao roda em um unico processo:
 - FastAPI atende as rotas `GET/POST /api/*`.
 - Flask atende a interface web em `/`.
 
-### Requisitos da aplicacao
-
-Antes de executar a aplicacao, confirme que estes arquivos existem:
-
-- `data/site/raw/{TICKER}/indicadores.csv`
-- `data/site/raw/{TICKER}/balancos.csv`
-- `data/site/raw/{TICKER}/resultados.csv`
-- `reports/model_export/stock_variation_classifier/model.joblib`
-- `reports/model_export/stock_variation_classifier/feature_contract.json`
-
-Os CSVs por ticker podem ser gerados com:
-
-```bash
-stock-report --source site
-```
-
-O modelo exportado e o contrato de features sao usados pela rota de analise. A aplicacao monta as features a partir do ultimo trimestre disponivel na base local e envia exatamente as colunas definidas em `feature_contract.json`.
-
 ### Configurar ambiente
 
 Crie e ative um ambiente virtual, depois instale o projeto com as dependencias de desenvolvimento:
@@ -47,14 +29,7 @@ pip install -e ".[dev]"
 
 Variaveis opcionais:
 
-- `BRAPI_TOKEN`: habilita a consulta agregada da brapi para preco-alvo, consenso e numero de analistas.
 - `STOCKREPORT_ENABLE_INVESTING=1`: habilita o fallback legado do Investing.com. Por padrao fica desativado porque a fonte costuma retornar bloqueios `403`.
-
-Exemplo:
-
-```bash
-export BRAPI_TOKEN="seu_token_brapi"
-```
 
 ### Executar aplicacao
 
